@@ -1,0 +1,28 @@
+{
+    "project": "DocShield AI",
+    "report_type": "Document Prompt Safety Review",
+    "document_name": "sample_policy.pdf",
+    "generated_at": "2026-11-25T14:02:02",
+    "total_passages": 10,
+    "total_findings": 2,
+    "risk_level": "High",
+    "findings": [
+        {
+            "chunk_id": 2,
+            "category": "Instruction Override",
+            "severity": "High",
+            "evidence": "Ignore previous instructions",
+            "explanation": "Potential instruction conflict.",
+            "recommendation": "Treat as untrusted data."
+        },
+        {
+            "chunk_id": 5,
+            "category": "Policy Conflict",
+            "severity": "High",
+            "evidence": "Disable security protections",
+            "explanation": "Potential security policy conflict.",
+            "recommendation": "Request human security review."
+        }
+    ],
+    "recommendation": "Human security review required."
+}

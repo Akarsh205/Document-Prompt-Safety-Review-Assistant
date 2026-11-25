@@ -1,0 +1,3 @@
+chunk_id,category,severity,evidence,explanation,recommendation
+2,Instruction Override,High,Ignore previous instructions,Potential instruction conflict.,Treat as untrusted data.
+5,Policy Conflict,High,Disable security protections,Potential security policy conflict.,Request human security review.
